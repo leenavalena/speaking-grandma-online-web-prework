@@ -3,7 +3,8 @@ if phrase == "Hey Grandma".downcase
   return "Huh?! Speak up Sonny".upcase
 elsif phrase == "No good hearing?".upcase
   return "No, not since 1938!".upcase
-else
+else phrase == "I love you grandma".upcase
+  return "I love you too pumpkin!".upcase
 end
 
 
