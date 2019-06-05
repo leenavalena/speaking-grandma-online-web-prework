@@ -1,7 +1,8 @@
 def speak_to_grandma(phrase= Hey Grandma)
 if phrase == "Hey Grandma".downcase
   return "Huh?! Speak up Sonny".upcase
-elsif
+elsif phrase == "No good hearing?".upcase
+  return "No, not since 1938!".upcase
 else
 end
 
